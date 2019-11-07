@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="script/style.css">
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="script/basics.js"></script>
+</head>
+
+
+
+
+
+
+<body>
+
+    <button type="button" id="start" class='bubu-button'>start</button>
+
+    <table id="music-info">
+        <tr>
+            <td>
+                <label>system sample rate</label>
+            </td>
+            <td>
+                <p id="system-sample-rate"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>music source</label>
+            </td>
+            <td>
+                <p id="music-source"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>frame rate per second (FPS)</label>
+            </td>
+            <td>
+                <p id="fps"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>refresh counter</label>
+            </td>
+            <td>
+                <p id="refresh-counter"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>time elapsed [second]</label>
+            </td>
+            <td>
+                <p id="time-elapsed"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>max value</label>
+            </td>
+            <td>
+                <p id="max-value"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>min value</label>
+            </td>
+            <td>
+                <p id="min-value"></p>
+            </td>
+        </tr>
+    </table>
+
+    <div class='bubu-div' id='plot-div'>
+    </div>
+
+</body>
+
+</html>
